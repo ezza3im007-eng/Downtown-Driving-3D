@@ -37,6 +37,8 @@ export function SimulatorScene() {
       <Suspense fallback={null}>
         <CityMap ref={terrainRef} />
         <PlayerVehicle terrainRef={terrainRef} />
+<SignsLayer />
+<ExamTracker />
       </Suspense>
     </>
   );
