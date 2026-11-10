@@ -1,0 +1,8 @@
+src/features/driving-school/config/rules.ts
+src/features/driving-school/config/signs.ts
+src/features/driving-school/config/signPlacements.ts
+src/features/driving-school/state/useExamStore.ts
+src/features/driving-school/lib/signTexture.ts
+src/features/driving-school/components/SignsLayer.tsx
+src/features/driving-school/components/ExamTracker.tsx
+src/features/driving-school/components/ExamHud.tsx
