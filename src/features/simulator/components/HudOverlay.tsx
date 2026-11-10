@@ -6,7 +6,7 @@ import { MiniMap } from './MiniMap';
 import { VehicleCardPreview } from './VehicleCardPreview';
 import { VEHICLE_OPTIONS } from '../../../shared/config/assets';
 import { DowntownDrivingLogo } from '../../../shared/components/DowntownDrivingLogo';
-
+import { ExamHud } from '../../driving-school/components/ExamHud';
 interface DialGaugeProps {
   accent: string;
   label: string;
@@ -565,6 +565,7 @@ export function HudOverlay() {
 
   return (
     <div className="hud">
+     <ExamHud /> 
       <div className="hud__header">
         <div className="hud__brand">
           <DowntownDrivingLogo variant="hud" />
