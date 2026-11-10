@@ -41,3 +41,5 @@ export function SimulatorScene() {
     </>
   );
 }
+import { SignsLayer } from '../../driving-school/components/SignsLayer';
+import { ExamTracker } from '../../driving-school/components/ExamTracker';
