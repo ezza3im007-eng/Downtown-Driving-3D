@@ -1,9 +1,16 @@
 const withBase = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 
-const vehicleAssetModules = import.meta.glob('../../../Assets/car/*.glb', {
-  eager: true,
-  import: 'default',
-}) as Record<string, string>;
+const vehicleAssetModules = import.meta.glob(
+  [
+    '../../../Assets/car/*.glb',
+    '!../../../Assets/car/honda_rc181*.glb',
+    '!../../../Assets/car/jeep_wrangler*.glb',
+  ],
+  {
+    eager: true,
+    import: 'default',
+  },
+) as Record<string, string>;
 
 const EXCLUDED_VEHICLE_IDS = new Set([
   'honda-rc181-hailwood-1966-www-vecarz-com',
