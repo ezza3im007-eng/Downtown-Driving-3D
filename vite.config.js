@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-   const githubPagesBase = '/';
+const githubPagesBase = '/';
 export default defineConfig({
     assetsInclude: ['**/*.glb'],
     base: githubPagesBase,
