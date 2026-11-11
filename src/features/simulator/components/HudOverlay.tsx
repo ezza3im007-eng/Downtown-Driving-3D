@@ -6,7 +6,7 @@ import { MiniMap } from './MiniMap';
 import { VehicleCardPreview } from './VehicleCardPreview';
 import { VEHICLE_OPTIONS } from '../../../shared/config/assets';
 import { DowntownDrivingLogo } from '../../../shared/components/DowntownDrivingLogo';
-import { ExamHud } from '../../driving-school/components/ExamHud';
+import { ExamHud } from '../../driving-school/DrivingSchool';
 interface DialGaugeProps {
   accent: string;
   label: string;
